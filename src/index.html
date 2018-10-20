@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<base href="/">
+<meta charset="UTF-8">
+<title>Question Master & Contestant</title>
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic'
+ rel='stylesheet' type='text/css'> 	<!--google fonts for lato-->
+<link rel="stylesheet" type="text/css" href="src/css/style.css">
+<link rel="stylesheet" type="text/css" href="src/css/enlarge.css">
+ <link rel="stylesheet" href="src/css/responsiveslides.css">
+  <link rel="stylesheet" href="src/css/slider.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>    <!---script for the slider--->
+<script src="responsiveslides.min.js"></script>
+<script>
+$(function () {
+$("#slider3").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        maxwidth: 800,
+        namespace: "large-btns"
+      });
+	 }
+</script>	<!---script for the slider--->
+
+
+
+</head>
+
+<body>
+
+
+<header>
+	<div class="wrapper">
+		<img src="src/img/logo.png" alt="logo">
+		<nav class="circle">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li><a href="src/ourWebPage/signin.html">Sign In Here</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+
+
+<section>
+	<div class="video-box">
+		<div class="wrapper">
+			<div class="rslides_container">
+			<ul class="rslides" id="slider3">
+				<li><img src="src/img/1.jpg" alt="">
+				<p class="caption">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Question Master and Contestant</p>
+				</li>
+
+			</ul>
+		<script>
+			$(function() {
+			$(".rslides").responsiveSlides();
+			});
+		</script>
+		</div>
+		</div>
+	</div>
+	<div class="wrapper">
+	<div class="main-intro">
+			<h2>Question Master and Contestant</h2>
+			<div class="wrapperp">
+			<p>Jumping Smiley Face is a fun and challenging mini game where you will try to obtain as many
+			coins as possible. Be careful though! You will die instantly if you fall down from the bridge or
+			got hit by the spikes! Now go try your best and get the highest score! (if you can :))
+			</p>
+		</div>
+	</div>
+	<div class="main-intro-aboutus"><a href="src/index.php">Try It Now</a></div>
+	</div>
+
+	<div class="wrapper">
+	<div class="extra">
+		<article>
+		<div class="xtra-img"><img id="myImg" src="src/img/screenshot1.PNG"></a></div>
+		</article>
+
+		<article>
+		<div class="extra-img1"><img id="myImg1" src="src/img/screenshot2.png"></a></div>
+		</article>
+
+		<article>
+		<div class="extra-img2"><img id="myImg2" src="src/img/screenshot3.png"></a></div>
+		</article>
+
+
+
+
+	</div>
+	</div>
+
+		<div class="wrapper">
+		<div class="main-intro">
+			<h2>Gaming is Life</h2>
+			<div class="wrapperp">
+			<p>Why are you still reading this???? Go play the game RIGHT NOW! STOP WASTING TIME ON READING THIS! A true gamer does
+			not waste any second on reading a main page! Now go click on the CLICK ME BUTTON NOW to start your game!</p>
+			</div>
+		</div>
+		<div class="main-intro-gallery"><a href="index.php" style= "text-align: center">CLICK ME</a></div>
+
+	</div>
+
+
+	<div class="main-student">
+		<div class="wrapper">
+
+
+			<!--This is for enlarging the image--->
+	<script>
+	var modal = document.getElementById('myModal');
+
+	var img = document.getElementById('myImg');
+	var modalImg = document.getElementById("screenshot1");
+	var captionText = document.getElementById("caption");
+	img.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		modalImg.alt = this.alt;
+		captionText.innerHTML = this.alt;
+	}
+
+	var span = document.getElementsByClassName("close")[0];
+	span.onclick = function() {
+	modal.style.display = "none";
+	}
+<!----------------------------------------------------------2nd----------------------------->
+
+	var modal = document.getElementById('myModal');
+
+	var img = document.getElementById('myImg1');
+	var modalImg = document.getElementById("screenshot2");
+	var captionText = document.getElementById("caption");
+	img.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		modalImg.alt = this.alt;
+		captionText.innerHTML = this.alt;
+	}
+
+	var span = document.getElementsByClassName("close")[0];
+	span.onclick = function() {
+	modal.style.display = "none";
+	}
+
+<!---------------------------------------------------------3rd--------------------->
+	var modal = document.getElementById('myModal');
+
+	var img = document.getElementById('myImg2');
+	var modalImg = document.getElementById("screenshot3");
+	var captionText = document.getElementById("caption");
+	img.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		modalImg.alt = this.alt;
+		captionText.innerHTML = this.alt;
+	}
+
+	var span = document.getElementsByClassName("close")[0];
+	span.onclick = function() {
+	modal.style.display = "none";
+	}
+</script>
+
+</div>
+</section>
+
+<footer>
+	<div class="wrapper">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutus.html">About Us<a/></li>
+				<li><a href="src/ourWebPage/signin.html">Sign In</a></li>
+			</ul>
+		</nav>
+	</div>
+</footer>
+
+
+</body>
+
+</html>
