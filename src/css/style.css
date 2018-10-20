@@ -1,8 +1,8 @@
-/* 
+/*
 html5doctor.com Reset Stylesheet
 v1.6.1
 Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com 
+Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
@@ -15,7 +15,7 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
     margin:0;
@@ -32,7 +32,7 @@ body {
 }
 
 article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
+footer,header,hgroup,menu,nav,section {
     display:block;
 }
 
@@ -68,7 +68,7 @@ ins {
 /* change colours to suit your needs */
 mark {
     background-color:#ff9;
-    color:#000; 
+    color:#000;
     font-style:italic;
     font-weight:bold;
 }
@@ -91,7 +91,7 @@ table {
 hr {
     display:block;
     height:1px;
-    border:0;   
+    border:0;
     border-top:1px solid #cccccc;
     margin:1em 0;
     padding:0;
@@ -108,7 +108,7 @@ input, select {
 .wrapper{
 	width: 980px;
 	margin: 0 auto;
-	
+
 }
 
 .wrapperp
@@ -126,7 +126,7 @@ header {
 	width: 100%;
 	height: 120px;
 
-	
+
 }
 
 header img {
@@ -171,6 +171,45 @@ nav.circle ul li a:hover {
   color: #555;
 }
 
+/*css for p */
+nav.circle {
+  width: 80%;
+  float:right;
+  background: #fff;
+  padding-top:44px;
+
+}
+
+nav.circle ul {
+  list-style: none;
+  text-align: center;
+  float:right;
+}
+
+nav.circle ul li {
+  display: inline-block;
+}
+
+nav.circle ul li p {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+
+nav.circle ul li p,
+nav.circle ul li p:after,
+nav.circle ul li p:before {
+  transition: all .5s;
+}
+nav.circle ul li p:hover {
+  color: #555;
+}
+
+/*end of p*/
 
 
 .video-box{
@@ -213,12 +252,12 @@ nav.circle ul li a:hover {
 	margin-right: auto;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 30px; 
+	line-height: 30px;
 }
 
 .main-intro-aboutus a{
-	
-	color: white;  
+
+	color: white;
 	font: normal normal normal 15px/1.4em 'open sans',sans-serif;
 }
 
@@ -297,7 +336,7 @@ nav.circle ul li a:hover {
 	padding-top: 10px;
 	text-transform: uppercase;
 	color: #555555;
-	
+
 }
 
 .main-student p{
@@ -316,7 +355,7 @@ nav.circle ul li a:hover {
 	background-color: #ccc;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 30px; 
+	line-height: 30px;
 	margin-left: auto ;
 	margin-right: auto ;
 	margin-top: none;
@@ -327,7 +366,7 @@ nav.circle ul li a:hover {
 	padding-top: 40px;
 }
 .main-intro-gallery a{
-	
+
 	color: white;
 	font: normal normal normal 15px/1.4em 'open sans',sans-serif;
 }
@@ -336,7 +375,7 @@ nav.circle ul li a:hover {
 	background-color: #555555;
 	cursor: pointer!important;
 	-webkit-transition: all 400ms ease;
-	
+
 }
 
 .main-intro-aboutus:hover
@@ -384,7 +423,7 @@ h1{
     letter-spacing: normal;
 	font: normal normal normal din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
 	color: #5E5D5D;
-	padding-bottom: 40px;		
+	padding-bottom: 40px;
 }
 
 /*------------gallery-artroom--------------*/
@@ -409,7 +448,7 @@ h1{
 	width: 100%;
 	height: 100%;
 	background-color: white;
-	
+
 	/*background-image: url('');*/
 }
 
@@ -421,7 +460,7 @@ h1{
     letter-spacing: normal;
 	font: normal normal normal din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
 	color: #5E5D5D;
-	padding-bottom: 40px;		
+	padding-bottom: 40px;
 }
 
 
@@ -438,7 +477,7 @@ footer nav{
 }
 
 footer nav ul{
-	
+
 }
 
 footer nav ul li{
@@ -465,7 +504,7 @@ footer.aboutusf nav{
 }
 
 footer nav ul{
-	
+
 }
 
 footer.aboutusf nav ul li{
