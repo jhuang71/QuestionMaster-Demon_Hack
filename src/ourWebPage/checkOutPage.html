@@ -1,0 +1,52 @@
+<html>
+<link rel="stylesheet" type="text/css" href="../css/checkOutPage.css">
+<link href='https://fonts.googleapis.com/css?family=Niramit'rel='stylesheet' type='text/css'>
+<title>Check Out</title>
+<head>
+
+</head>
+
+<body>
+    <h1>Check Out</h1>
+    <div class="loginbox">
+        <form name="checkOutInfo">
+            <p>Card Number</p>
+            <input type="text" name="cardNumber" placeholder="Enter your card number">
+            <p>Card Expiration Date</p>
+            <input type="text" name="cardExpirationDate" placeholder="Enter your card expiration date">
+            <p>Security Code</p>
+            <input type="text" name="securityCode" placeholder="Enter your security code">
+            <p>First Name</p>
+            <input type="text" name="firstName" placeholder="Enter your first name">
+            <p>Last Name</p>
+            <input type="text" name="lastName" placeholder="Enter your last name">
+        </form>
+    </div>
+
+    <div class="loginbox1">
+        <form name="checkOutInfo1">
+            <p>Address</p>
+            <input type="text" name="address" placeholder="Enter your address">
+            <p>City</p>
+            <input type="text" name="city" placeholder="Enter your city">
+            <p>State</p>
+            <input type="text" name="state" placeholder="Enter your state">
+            <p>Zip</p>
+            <input type="text" name="zip" placeholder="Enter your zip code">
+            <p>Country</p>
+            <input type="text" name="country" placeholder="Enter your country">
+        </form>
+    </div>
+
+
+<button id="checkOutButton">Check Out</button>
+</body>
+
+
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+<script src="../ourScript/initFireBase.js"></script>
+<script type="application/javascript" src="../ourScript/packageCost.js"></script>
+<script type="application/javascript" src="../ourScript/ourUser.js"></script>
+<script type="application/javascript" src="../ourScript/authorizeNET.js"></script>
+
+</html>
